@@ -95,6 +95,7 @@ public:
 	void handleMovement();
 	bool willFightEnemy(unsigned x, unsigned y);
 	void handleCombat(Enemy* foe, Direction direction);//needs direction for teleport
+	void modifyDamage(Enemy* foe, unsigned& damage);
 	bool checkEnemyThere(unsigned x, unsigned y);
 	Enemy* getEnemyThere(unsigned x, unsigned y);
 	bool canTeleportThere(unsigned x, unsigned y);

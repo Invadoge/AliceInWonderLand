@@ -148,6 +148,7 @@ void Game::handleCombat(Enemy* foe, Direction direction){
 		foe->set_ItemUsedOn(usedItem);
 	}
 	if (usedItem != ItemType::InvisiHat && usedItem != ItemType::PotionOfTeleport) {
+		modifyDamage(foe, playerdamage);
 		switch (foe->getType()) {
 		case EnemyType::Cheshire:
 			unsigned x, y;
@@ -219,6 +220,26 @@ ItemType Game::onItemUse(unsigned& damage, Direction direction){
 	}
 	selected_item = -1;
 	return ItemType::Nothing;
+}
+void Game::modifyDamage(Enemy* foe, unsigned& damage) {
+	int coinToss = rand() % 2;
+	ItemType item = foe->get_ItemUsedOn();
+	switch (item) {
+	case ItemType::DrinkMe:
+		damage = 10;
+		break;
+	case ItemType::EatMe:
+		damage = 40;
+		break;
+	case ItemType::MagicFan:
+		damage = 35;
+		break;
+	case ItemType::Rose:
+		(coinToss == 1) ? damage = 40 : damage = 10;
+		break;
+	default:
+		damage = 15;
+	}
 }
 void Game::potionOfTeleport(Direction direction) {
 	unsigned p_y = player.get_y();
