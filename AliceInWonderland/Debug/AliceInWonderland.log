@@ -1,13 +1,35 @@
 ﻿  Game.cpp
-E:\Programming\C++\AliceInWonderland\AliceInWonderland\Game.cpp(317,71): warning C4244: 'argument': conversion from 'unsigned int' to 'T', possible loss of data
-E:\Programming\C++\AliceInWonderland\AliceInWonderland\Game.cpp(317,71): warning C4244:         with
-E:\Programming\C++\AliceInWonderland\AliceInWonderland\Game.cpp(317,71): warning C4244:         [
-E:\Programming\C++\AliceInWonderland\AliceInWonderland\Game.cpp(317,71): warning C4244:             T=float
-E:\Programming\C++\AliceInWonderland\AliceInWonderland\Game.cpp(317,71): warning C4244:         ]
-E:\Programming\C++\AliceInWonderland\AliceInWonderland\Game.cpp(317,47): warning C4244: 'argument': conversion from 'unsigned int' to 'T', possible loss of data
-E:\Programming\C++\AliceInWonderland\AliceInWonderland\Game.cpp(317,47): warning C4244:         with
-E:\Programming\C++\AliceInWonderland\AliceInWonderland\Game.cpp(317,47): warning C4244:         [
-E:\Programming\C++\AliceInWonderland\AliceInWonderland\Game.cpp(317,47): warning C4244:             T=float
-E:\Programming\C++\AliceInWonderland\AliceInWonderland\Game.cpp(317,47): warning C4244:         ]
-E:\Programming\C++\AliceInWonderland\AliceInWonderland\Game.cpp(77): warning C4715: 'Game::getEnemyThere': not all control paths return a value
-  AliceInWonderland.vcxproj -> E:\Programming\C++\AliceInWonderland\Debug\AliceInWonderland.exe
+E:\Programming\C++\AliceInWonderland\.git\AliceInWonderland\AliceInWonderland\Characters.h(88,73): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+E:\Programming\C++\AliceInWonderland\.git\AliceInWonderland\AliceInWonderland\Characters.h(88,73): warning C4244:         with
+E:\Programming\C++\AliceInWonderland\.git\AliceInWonderland\AliceInWonderland\Characters.h(88,73): warning C4244:         [
+E:\Programming\C++\AliceInWonderland\.git\AliceInWonderland\AliceInWonderland\Characters.h(88,73): warning C4244:             T=float
+E:\Programming\C++\AliceInWonderland\.git\AliceInWonderland\AliceInWonderland\Characters.h(88,73): warning C4244:         ]
+E:\Programming\C++\AliceInWonderland\.git\AliceInWonderland\AliceInWonderland\Characters.h(88,65): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+E:\Programming\C++\AliceInWonderland\.git\AliceInWonderland\AliceInWonderland\Characters.h(88,65): warning C4244:         with
+E:\Programming\C++\AliceInWonderland\.git\AliceInWonderland\AliceInWonderland\Characters.h(88,65): warning C4244:         [
+E:\Programming\C++\AliceInWonderland\.git\AliceInWonderland\AliceInWonderland\Characters.h(88,65): warning C4244:             T=float
+E:\Programming\C++\AliceInWonderland\.git\AliceInWonderland\AliceInWonderland\Characters.h(88,65): warning C4244:         ]
+E:\Programming\C++\AliceInWonderland\.git\AliceInWonderland\AliceInWonderland\Game.cpp(317,71): warning C4244: 'argument': conversion from 'unsigned int' to 'T', possible loss of data
+E:\Programming\C++\AliceInWonderland\.git\AliceInWonderland\AliceInWonderland\Game.cpp(317,71): warning C4244:         with
+E:\Programming\C++\AliceInWonderland\.git\AliceInWonderland\AliceInWonderland\Game.cpp(317,71): warning C4244:         [
+E:\Programming\C++\AliceInWonderland\.git\AliceInWonderland\AliceInWonderland\Game.cpp(317,71): warning C4244:             T=float
+E:\Programming\C++\AliceInWonderland\.git\AliceInWonderland\AliceInWonderland\Game.cpp(317,71): warning C4244:         ]
+  main.cpp
+E:\Programming\C++\AliceInWonderland\.git\AliceInWonderland\AliceInWonderland\Game.cpp(317,47): warning C4244: 'argument': conversion from 'unsigned int' to 'T', possible loss of data
+E:\Programming\C++\AliceInWonderland\.git\AliceInWonderland\AliceInWonderland\Game.cpp(317,47): warning C4244:         with
+E:\Programming\C++\AliceInWonderland\.git\AliceInWonderland\AliceInWonderland\Game.cpp(317,47): warning C4244:         [
+E:\Programming\C++\AliceInWonderland\.git\AliceInWonderland\AliceInWonderland\Game.cpp(317,47): warning C4244:             T=float
+E:\Programming\C++\AliceInWonderland\.git\AliceInWonderland\AliceInWonderland\Game.cpp(317,47): warning C4244:         ]
+E:\Programming\C++\AliceInWonderland\.git\AliceInWonderland\AliceInWonderland\Characters.h(88,73): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+E:\Programming\C++\AliceInWonderland\.git\AliceInWonderland\AliceInWonderland\Characters.h(88,73): warning C4244:         with
+E:\Programming\C++\AliceInWonderland\.git\AliceInWonderland\AliceInWonderland\Characters.h(88,73): warning C4244:         [
+E:\Programming\C++\AliceInWonderland\.git\AliceInWonderland\AliceInWonderland\Characters.h(88,73): warning C4244:             T=float
+E:\Programming\C++\AliceInWonderland\.git\AliceInWonderland\AliceInWonderland\Characters.h(88,73): warning C4244:         ]
+  Generating Code...
+E:\Programming\C++\AliceInWonderland\.git\AliceInWonderland\AliceInWonderland\Characters.h(88,65): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+E:\Programming\C++\AliceInWonderland\.git\AliceInWonderland\AliceInWonderland\Characters.h(88,65): warning C4244:         with
+E:\Programming\C++\AliceInWonderland\.git\AliceInWonderland\AliceInWonderland\Characters.h(88,65): warning C4244:         [
+E:\Programming\C++\AliceInWonderland\.git\AliceInWonderland\AliceInWonderland\Characters.h(88,65): warning C4244:             T=float
+E:\Programming\C++\AliceInWonderland\.git\AliceInWonderland\AliceInWonderland\Characters.h(88,65): warning C4244:         ]
+E:\Programming\C++\AliceInWonderland\.git\AliceInWonderland\AliceInWonderland\Game.cpp(77): warning C4715: 'Game::getEnemyThere': not all control paths return a value
+  AliceInWonderland.vcxproj -> E:\Programming\C++\AliceInWonderland\.git\AliceInWonderland\Debug\AliceInWonderland.exe

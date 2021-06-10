@@ -1,6 +1,5 @@
 #ifndef ALICE_GAME
 #define ALICE_GAME
-#include "Board.h"
 #include "Characters.h"
 #include <vector>
 #include <fstream>

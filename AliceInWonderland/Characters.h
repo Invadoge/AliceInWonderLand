@@ -1,7 +1,7 @@
 #pragma once
 enum class EnemyType{ Cheshire, Queen, Rabbit, Hatter};
 enum class ItemType { PotionOfTeleport, DrinkMe, EatMe, MagicFan, InvisiHat, Rose, Nothing};
-#include "SFML/Graphics.hpp"
+#include <SFML/Graphics.hpp>
 #include <string>
 #include <iostream>
 class Characters{
@@ -72,11 +72,22 @@ private:
 	unsigned canPhaseFor = 0;
 	ItemType inventory[3]{ ItemType::Nothing };
 public:
-	Player(unsigned x=0, unsigned y=0, std::string filename="");
+	Player(unsigned x = 0, unsigned y = 0, std::string filename = "") {
+		if (filename != "") {
+			this->set_position(x, y);
+			this->shape.setPosition(sf::Vector2f(x * 50.0f, y * 50.0f));
+			this->set_texture(filename);
+		}
+	}
 	void setPhaseFor(unsigned turns) {
 		canPhaseFor = turns;
 	}
-	void movePlayer(int x, int y);
+	void movePlayer(int x, int y) {
+		this->pos_x += x;
+		this->pos_y += y;
+		this->shape.setPosition(shape.getPosition() + sf::Vector2f(50 * x, 50 * y));
+		return;
+	}
 	bool canPhase()const {
 		return canPhaseFor != 0;
 	}
